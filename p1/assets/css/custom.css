@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700|Roboto:300,400,700');
+
+#header2 {
+  position: relative;
+  width: 100%;
+  min-height: 60px;
+  background: #fff;
+}
+#header2 .left {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  padding-top: 17px;
+  padding-left: 60px;
+}
+#header2 .left h3 {
+  position: relative;
+  font-family: open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#header2 .right {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+}
+#header2 .right ul {
+  position: relative;
+  list-style: none;
+  text-align: right;
+  padding-right: 50px;
+}
+#header2 .right li {
+  position: relative;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-left: 65px;
+  margin-top: 35px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+#banner3 {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  padding-left: 75px;
+}
+#banner3 .banner {
+  position: relative;
+  width: 95%;
+  min-height: 665px;
+  background: #4169e1;
+  padding-top: 50px;
+}
+#banner3 .banner .menu {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding-left: 50px;
+}
+#banner3 .banner .menu .icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url('../img/menu.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#banner3 .banner .menu .left {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  padding-top: 280px;
+  padding-left: 145px;
+}
+#banner3 .banner .menu .left h5 {
+  position: relative;
+  font-family: Open sans ;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+#banner3 .banner .mid {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+#banner3 .banner .mid .mid_1 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding-top: 150px;
+}
+#banner3 .banner .mid .mid_1 h1 {
+  position: absolute;
+  font-family: Roboto condensed;
+  font-weight: 500;
+  font-size: 130px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+#banner3 .banner .mid .mid_1 .circle {
+  position: relative;
+  height: 400px;
+  width: 40px;
+}
+#banner3 .banner .mid .mid_1 .circle .cir_1 {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 250px;
+  border: 1px solid #fff;
+  left: 700%;
+  bottom:10%;
+}
+#banner3 .banner .mid .mid_1 .circle .cir_2 {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-radius: 350px;
+  border: 1px solid #fff;
+  bottom: 80%;
+  left: 240%;
+}
+#banner3 .banner .mid .mid_2 {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  background: url('../img/athlete.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 15%;
+  bottom: 80%;
+  right: 10%;
+}
+#banner3 .banner .right {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  padding-top: 120px;
+}
+#banner3 .banner .right h3 {
+  position: relative;
+  font-family: open sans;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  left: 15%;
+}
+#banner3 .banner .right h3::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 60px;
+  background: #fff;
+  top: 150%;
+  left: 12%;
+}
+#progress4 {
+  position: relative;
+  width: 100%;
+  min-height: 650px;
+  background: #fff;
+}
+#progress4 .left {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  background: #fff;
+  padding-top: 30px;
+  padding-left: 135px;
+}
+#progress4 .left h3 {
+  position: relative;
+  font-family: open sans;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 60px;
+}
+#progress4 .left h3::before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 35px;
+  background: #ccc;
+  display: block;
+  z-index: 9;
+  margin-top: 55px;
+}
+#progress4 .left h5 {
+  position: relative;
+  font-family: open sans;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 60px;
+}
+#progress4 .left p {
+  position: relative;
+  font-family: open sans;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #000;
+  margin-top: -25px;
+}
+#progress4 .left .boat {
+  position: relative;
+  width: 400px;
+  height: 340px;
+  background: url('../img/boat.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 80px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 80px;
+}
+#progress4 .right {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  padding-bottom: 100px;
+  right: 10%;
+}
+#progress4 .right .img {
+  position: relative;
+  top: -30px;
+  left: 200px;
+  width: 400px;
+  height: 300px;
+  background: url('../img/mountain.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+}
+#progress4 .right .box {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  padding-top: 5px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-left: 445px;
+}
+#progress4 .right .box button {
+  position: relative;
+  font-family: open sans;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #FF4500;
+  color: #fff;
+  margin:0;
+}
+#progress4 .right .box_1 {
+  position: relative;
+  width: 170px;
+  height: 30px;
+  background: #000;
+  padding-top: 3px;
+  padding-left: 10px;
+  margin-top: 180px;
+  margin-left: 433px;
+}
+#progress4 .right .box_1 p {
+  position: relative;
+  font-family: open sans;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  margin:0;
+}
+#progress4 .right .box_2 {
+  position: relative;
+  width: 117px;
+  height: 32px;
+  background: #000;
+  padding-top: 3px;
+  padding-left: 12px;
+  margin-top: 5px;
+  margin-left: 485px;
+}
+#progress4 .right .box_2 p {
+  position: relative;
+  font-family: open sans;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  margin:0;
+}
+#progress4 .right .box_3 {
+  position: relative;
+  padding-left: 220px;
+  padding-top: 50px;
+}
+#progress4 .right .box_3 p {
+  position: relative;
+  font-family: open sans;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #333;
+}
+#progress4 .right .box_4 {
+  position: relative;
+  width: 175px;
+  height: 40px;
+  padding-top: 12px;
+  padding-left: 42px;
+  margin-top: 20px;
+  margin-left: 420px;
+}
+#progress4 .right .box_4 button {
+  position: relative;
+  font-family: open sans;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background: 	#FF4500;
+}
+#wolf5 {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  padding-left: 45px;
+  margin-top: 40px;
+}
+#wolf5 .text {
+  position: relative;
+  width: 96%;
+  height: 500px;
+  background: #ccc;
+  padding-top: 20px;
+}
+#wolf5 .text .left {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  padding-left: 30px;
+}
+#wolf5 .text .left h1 {
+position: relative;
+font-family: Open Sans;
+font-weight: 700;
+font-size: 40px;
+letter-spacing: 2px;
+margin-bottom: 30px;
+}
+#wolf5 .text .left h1::before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 35px;
+  background: 	#A9A9A9;
+  display: block;
+  z-index: 9;
+  margin-top: 60px;
+  margin-left: 3px;
+}
+#wolf5 .text .left h2 {
+position: relative;
+font-family: Open Sans;
+font-weight: 700;
+font-size: 25px;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-top: 75px;
+}
+#wolf5 .text .left p {
+position: relative;
+width: 80%;
+font-family: Open Sans;
+font-weight: 500;
+font-size: 15px;
+text-transform: capitalize;
+margin-top: 45px;
+}
+#wolf5 .text .left button {
+  position: relative;
+  background: #FF4500;
+  color: #fff;
+  font-family: open Sans;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 390px;
+  margin-top: 40px;
+}
+#wolf5 .text .img {
+  position: relative;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: url('../img/runner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+#solution6 {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  background: url('../img/wave.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#solution6 .text {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+#solution6 .text .card {
+  position: relative;
+  height: 280px;
+  width: 300px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  margin-top: 215px;
+  margin-left: 120px;
+  padding-top: 20px;
+}
+#solution6 .text .card .box_1{
+position: relative;
+height: 30px;
+width: 200px;
+background: #000;
+padding-left: 15px;
+padding-top: 3px;
+}
+#solution6 .text .card .box_1 p {
+  position: relative;
+  font-family: open sans;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+#solution6 .text .card .box_2{
+  position: relative;
+  height: 30px;
+  width: 140px;
+  background: #000;
+  padding-left: 15px;
+  margin-top: 10px;
+  padding-top: 3px;
+}
+#solution6 .text .card .box_2 p{
+  position: relative;
+  font-family: open sans;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+}
+#solution6 .text .card .box_3 {
+  position: relative;
+  height: 100px;
+  width: 90%;
+  margin-top: 45px;
+  background: #A9A9A9;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#solution6 .text .card .box_3 p{
+  position: relative;
+  font-family: open sans;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#solution6 .text .box {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+#solution6 .text .box h1 {
+   position: relative;
+   font-family: Open Sans;
+   font-weight: 700;
+   font-size: 40px;
+   letter-spacing: 2px;
+   color: #000;
+   float: right;
+   right: 12%;
+  }
+  #solution6 .text .box h1::after {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 4px;
+    background: #ccc;
+    margin-top: 50px;
+    left: 40px;
+ }
+  #solution6 .text .box h3 {
+    position: relative;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    float: right;
+    right: 5%;
+    margin-top: 120px;
+  }
+#solution6 .text .img {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  background: url('../img/laptop.png');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  top: 60%;
+}
+#solution6 .text .img_in {
+  position: relative;
+  height: 300px;
+  width: 452px;
+  background: url('../img/wallpaper.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 161%;
+  left: 19%;
+}
+#user7 {
+  position: relative;
+  width: 96%;
+  min-height: 520px;
+  background: #ccc;
+  margin-top: 50px;
+  margin-left: 30px;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+#user7 .text {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding-left: 30px;
+}
+#user7 .text h1 {
+  position: relative;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #000;
+  margin-bottom: 40px;
+}
+#user7 .text h1::before {
+  content:'';
+  position: absolute;
+  height: 40px;
+  width: 4px;
+  background: #A9A9A9;
+  top: 50px;
+  left: 5px;
+}
+#user7 .text h3 {
+  position: relative;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  margin-bottom: 40px;
+  top: 15px;
+}
+#user7 .text .comma_1 {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background : url('../img/a.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#user7 .text .comma_2 {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background : url('../img/b.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 160px;
+}
+#user7 .text p {
+  position: relative;
+  width: 70%;
+  height: 15px;
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #000;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+#user7 .text h4 {
+  position: relative;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: #000;
+  margin-left: 50px;
+}
+#user7 .text .box {
+  position: relative;
+  height: 30px;
+  width: 100px;
+  margin-left: 375px;
+}
+#user7 .text .box button {
+  position: relative;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #FF4500;
+}
+#user7 .img {
+  position: relative;
+  position: relative;
+  width: 585px;
+  height: 430px;
+  background: url('../img/girl.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+#icon8 {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: #fff;
+}
+#icon8 .icons {
+  position: relative;
+  width: 100%;
+  padding-top: 110px;
+  padding-left: 420px;
+}
+#icon8 .icons .icon_1 {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background: url('../img/facebook.png');
+  background-position: left;
+  background-size: contain;;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 70px;
+}
+#icon8 .icons .icon_2 {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background: url('../img/twitter.png');
+  background-position: left;
+  background-size: contain;;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 70px;
+}
+#icon8 .icons .icon_3 {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background: url('../img/googleplus.png');
+  background-position: center;
+  background-size: contain;;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 70px;
+}
+#icon8 .icons .icon_4 {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background: url('../img/linkedin.png');
+  background-position: center ;
+  background-size: contain;;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 70px;
+}
+#icon8 .icons .icon_5 {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background: url('../img/instagram.png');
+  background-position: right;
+  background-size: contain;;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+#contact9 {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+}
+#contact9 .last {
+  position: relative;
+  width: 95%;
+  min-height: 600px;
+  background: #4169e1;
+  margin-left: 33px;
+}
+#contact9 .last .search h1 {
+  position: relative;
+  font-family: roboto condensed;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  top: 30%;
+  left: 15px;
+}
+#contact9 .last .search {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  background: url('../img/athlete.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 8%;
+}
+#contact9 .last .box_1 {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  top: 45%;
+  left: 30%;
+}
+#contact9 .last .box_1 input {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  top: 45%;
+  left: 25%;
+  padding-left: 8px;
+}
+#contact9 .last .box_2 {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  top: 57%;
+  left: 30%;
+}
+#contact9 .last .box_2 input {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  top: 45%;
+  left: 25%;
+  padding-left: 8px;
+}
+#contact9 .last .box_2 button {
+  position: absolute;
+  width: 70px;
+  height: 27px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  top: 60%;
+  left: 132%;
+  margin: 2px;
+  background: #A9A9A9;
+  font-weight: 500;
+}
+#contact9 .content {
+  #position: absolute;
+  height:30px;
+  width: 100%;
+}
+#contact9 .content .left {
+  position: absolute;
+  height: 30px;
+  width: 250px;
+  top: 94%;
+  left: 8%;
+}
+#contact9 .content .left p{
+  position: relative;
+  font-family: Raleway;
+  font-weight: 300;
+  color: #fff;
+  font-size: 13px;
+}
+#contact9 .content .right {
+  position: absolute;
+  height: 30px;
+  width: 300px;
+}
+#contact9 .content .right ul {
+  position: relative;
+  height: 100px;
+  width: 400px;
+  list-style: none;
+  padding: 0;
+}
+#contact9 .content .right ul li {
+  position: relative;
+  font-size: 12px;
+  font-family: Raleway;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  top: 565%;
+  left: 205%;
+  display: inline-block;
+  margin-right: 20px;
+}
